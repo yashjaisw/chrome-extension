@@ -1,0 +1,14 @@
+{
+ "manifest_version": 2,
+ "name": "Shortify",
+ "description": "The Most creative UrlShortener",
+ "version": "1",
+ "author": "Yash Jaiswal",
+"browser_action": {
+   "default_popup": "Start Page.html"
+ },
+"chrome_url_overrides" : {
+  "newtab": "Start Page.html"
+},
+ "permissions": ["activeTab"]
+}
